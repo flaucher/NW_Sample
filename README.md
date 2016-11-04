@@ -1,7 +1,7 @@
 # NightWatchTest
 
-Test automation framework for End to End UI Test testing using [`NodeJS`](https://nodejs.org/), [`Nightwatch`](http://nightwatchjs.org/), [`Typescript`](http://www.typescriptlang.org/),
-[`Selenium`](http://www.seleniumhq.org/) for testing  locally and  [`Sauce Labs`](https://saucelabs.com/).
+Test automation framework for Selenium testing [`NodeJS`](https://nodejs.org/), [`Nightwatch`](http://nightwatchjs.org/), [`Typescript`](http://www.typescriptlang.org/),
+[`Selenium`](http://www.seleniumhq.org/) for testing  locally.
 
 ##Prerequisites
 ---------------
