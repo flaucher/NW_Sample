@@ -1,7 +1,7 @@
 # NightWatchTest
 
-Test automation framework for Selenium testing [`NodeJS`](https://nodejs.org/), [`Nightwatch`](http://nightwatchjs.org/), [`Typescript`](http://www.typescriptlang.org/),
-[`Selenium`](http://www.seleniumhq.org/) for testing  locally.
+Test automation framework for our Selenium Testing [`NodeJS`](https://nodejs.org/), [`Nightwatch`](http://nightwatchjs.org/), [`Typescript`](http://www.typescriptlang.org/),
+[`Selenium`](http://www.seleniumhq.org/) for testing  locally and  [`Sauce Labs`](https://saucelabs.com/).
 
 ##Prerequisites
 ---------------
