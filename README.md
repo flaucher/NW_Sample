@@ -19,9 +19,10 @@ To proceed you need a Mac, Windows, or Linux machine, and:
 
 4. Copy of this repository using Git or from a browser
     ```
-        git clone https://github.com/rkavalap/NightWatchTest 
+        git clone https://github.com/flaucher/NW_Sample 
+         
         or 
-        https://github.com/rkavalap/NightWatchTest/archive/master.zip
+        https://github.com/flaucher/NW_Sample/archive/master.zip
     ```
 5. From the copy of the source i.e NightWatchTest directory
     ```
@@ -37,35 +38,44 @@ To proceed you need a Mac, Windows, or Linux machine, and:
     This will install all the files needed to work
 ```
 ##Visual Studio Code Tips
-...
+----------------------------
+
 AutoSave
+----------------------------
+
     Under File > select autosave
 Build
+----------------------------
     The build process taks the test.ts that you create and edit 
     and recreates them in the buildOutput folder so that nightwatch can execute them
+----------------------------
 To enable automatic build.
+----------------------------
     Ctrl+P  >  type task then space select watch
     this will open an output pane that shows the build - you can just minimize this
     to terminate the task
     CTRL+Shift P > type - terminate then select Task:Terminate Running Task
 Manual Build
+----------------------------
      Ctrl+P  >  type task then space select default
-...
+
 ##To Start Selenium
-...
+----------------------------
     Using the version that is stated in the package.json file
     java -jar node_modules\selenium-server\lib\runner\selenium-server-standalone-3.0.1.jar
-...
+
 ##To Execute Test:
 ------------------
-
 To execute individual test suite (single file of test cases) use the "-t" argument and path of the test case under build output folder and "--env" argument.
 
 ```
     node node_modules/nightwatch/bin/runner.js -t buildOutput/javascript1.js --env devtest-chrome-win8
 ```
 To execute multiple test cases you can use --tag argument to nightwatch. Each test suite needs to have tag attribute defined.
-    To run with tags:  node node_modules/nightwatch/bin/runner.js --tag GF
+    To run with tags:
+...    
+    node node_modules/nightwatch/bin/runner.js --tag GF
+...
     To run one test node node_modules/nightwatch/bin/runner.js -t buildOutput/javascript1.js
 ...
 
